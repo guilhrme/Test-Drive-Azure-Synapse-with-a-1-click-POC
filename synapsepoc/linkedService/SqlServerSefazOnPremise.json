@@ -1,0 +1,16 @@
+{
+	"name": "SqlServerSefazOnPremise",
+	"type": "Microsoft.Synapse/workspaces/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "integrated security=False;data source=LLK85N1FD020;initial catalog=Datalink;user id=sqladmin",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI1MTU1YTYzMy02MDE4LTQxM2ItOTBlNi0xNGJiNTJkNWJkZWMiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "IntegrationRuntimeSefazBA",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
