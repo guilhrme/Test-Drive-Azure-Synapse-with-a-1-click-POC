@@ -2,13 +2,13 @@
 	"name": "SQL script 1",
 	"properties": {
 		"content": {
-			"query": "SELECT TOP 100 * FROM \nOPENROWSET( \nBULK 'https://azureopendatastorage.blob.core.windows.net/nyctlc/yellow/puYear=*/puMonth=*/*.parquet', \nFORMAT='PARQUET' \n) AS [nyc] ",
+			"query": "SELECT TOP (100) [id]\n,[diagnosis]\n,[radius_mean]\n,[texture_mean]\n,[perimeter_mean]\n,[area_mean]\n,[smoothness_mean]\n,[compactness_mean]\n,[concavity_mean]\n,[concave_points_mean]\n,[symmetry_mean]\n,[fractal_dimension_mean]\n,[radius_se]\n,[texture_se]\n,[perimeter_se]\n,[area_se]\n,[smoothness_se]\n,[compactness_se]\n,[concavity_se]\n,[concave_points_se]\n,[symmetry_se]\n,[fractal_dimension_se]\n,[radius_worst]\n,[texture_worst]\n,[perimeter_worst]\n,[area_worst]\n,[smoothness_worst]\n,[compactness_worst]\n,[concavity_worst]\n,[concave_points_worst]\n,[symmetry_worst]\n,[fractal_dimension_worst]\n FROM [dbo].[data]",
 			"metadata": {
 				"language": "sql"
 			},
 			"currentConnection": {
-				"databaseName": "master",
-				"poolName": "Built-in"
+				"databaseName": "sbacirsdq7twxar6pocws1p1",
+				"poolName": "sbacirsdq7twxar6pocws1p1"
 			},
 			"resultLimit": 5000
 		},
