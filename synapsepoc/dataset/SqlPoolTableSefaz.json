@@ -1,0 +1,12 @@
+{
+	"name": "SqlPoolTableSefaz",
+	"properties": {
+		"annotations": [],
+		"type": "SqlPoolTable",
+		"schema": [],
+		"sqlPool": {
+			"referenceName": "sbacirsdq7twxar6pocws1p1",
+			"type": "SqlPoolReference"
+		}
+	}
+}

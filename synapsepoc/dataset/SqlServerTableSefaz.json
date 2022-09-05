@@ -1,0 +1,169 @@
+{
+	"name": "SqlServerTableSefaz",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "SqlServerSefazOnPremise",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [
+			{
+				"name": "id",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "diagnosis",
+				"type": "nvarchar"
+			},
+			{
+				"name": "radius_mean",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "texture_mean",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "perimeter_mean",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "area_mean",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "smoothness_mean",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "compactness_mean",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "concavity_mean",
+				"type": "nvarchar"
+			},
+			{
+				"name": "concave_points_mean",
+				"type": "nvarchar"
+			},
+			{
+				"name": "symmetry_mean",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "fractal_dimension_mean",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "radius_se",
+				"type": "nvarchar"
+			},
+			{
+				"name": "texture_se",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "perimeter_se",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "area_se",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "smoothness_se",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "compactness_se",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "concavity_se",
+				"type": "nvarchar"
+			},
+			{
+				"name": "concave_points_se",
+				"type": "nvarchar"
+			},
+			{
+				"name": "symmetry_se",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "fractal_dimension_se",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "radius_worst",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "texture_worst",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "perimeter_worst",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "area_worst",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "smoothness_worst",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "compactness_worst",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "concavity_worst",
+				"type": "nvarchar"
+			},
+			{
+				"name": "concave_points_worst",
+				"type": "nvarchar"
+			},
+			{
+				"name": "symmetry_worst",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "fractal_dimension_worst",
+				"type": "float",
+				"precision": 15
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "data"
+		}
+	}
+}
