@@ -1,0 +1,6 @@
+{
+	"name": "IntegrationRuntimeSefazBA",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}
