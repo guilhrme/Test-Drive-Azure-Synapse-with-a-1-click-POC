@@ -5,6 +5,9 @@
 		"workspaceName": {
 			"value": "sbacirsdq7twxar6pocws1"
 		},
+		"SqlServerSefazOnPremise_connectionString": {
+			"value": ""
+		},
 		"TripFaresSynapseAnalyticsLinkedService_connectionString": {
 			"value": ""
 		},
