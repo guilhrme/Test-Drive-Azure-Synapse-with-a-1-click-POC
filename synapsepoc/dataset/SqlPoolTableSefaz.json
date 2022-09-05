@@ -4,6 +4,10 @@
 		"annotations": [],
 		"type": "SqlPoolTable",
 		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "data"
+		},
 		"sqlPool": {
 			"referenceName": "sbacirsdq7twxar6pocws1p1",
 			"type": "SqlPoolReference"
